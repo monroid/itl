@@ -39,12 +39,3 @@ class Converter:
             return int(amount * t_unit)
         else:
             raise ValueCannotBeConvertedError
-
-
-if __name__ == "__main__":
-    cvt = Converter()
-    for i in arr:
-        try:
-            print(cvt.to_seconds(i))
-        except Exception as e:
-            print(e)
