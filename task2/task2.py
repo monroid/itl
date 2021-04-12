@@ -11,6 +11,5 @@ class App:
         cmd = subprocess.run(
             cmd_arr,
             text=True,
-            stdout=subprocess.PIPE,
-            check=True)
+            stdout=subprocess.PIPE)
         return cmd

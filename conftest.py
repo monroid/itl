@@ -10,4 +10,4 @@ def converter():
 
 @pytest.fixture(scope='session')
 def app():
-    return App("ping")
+    return App("./git/itl/bin/mycoolsoft_6")
